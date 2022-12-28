@@ -1,0 +1,347 @@
+/* *, *::before, *::after {
+    border: inherit;
+}
+html {
+    border: 1px solid yellow;
+} */
+body {
+    width: 100%;
+    background-color: rgb(36, 43, 51);
+    background-image: url(../assets/back_img.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 58%;
+    margin-left: 21.14%;
+}
+.up_menu {
+    width: 49%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.8%;
+}
+.logo { 
+    height: 55%;
+    width: 12%;
+    align-self: flex-end;
+    margin-bottom: 0.25%;
+}
+.textblock {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: rgba(212, 193, 127, 1);
+}
+input:focus {
+    color:black
+}
+.menu {
+    font-size: 10px;
+}
+
+/* screen 1 */
+main {
+    text-align: center;
+}
+h1, h2 {   
+    color: rgba(212, 193, 127, 1);
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+h1 {
+    margin-top: 5.6%;
+    font-size: 30px;
+    letter-spacing: 0.01em;
+    line-height: 41px;
+}
+#mouse {
+    height: 27px;
+    width: auto;
+    padding-top: 2.4%;
+}
+.section1 {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.place_phone {
+    height: 15px;
+    padding-right: 0.5%;
+}
+.place_phone_text {
+    padding-right: 4.7%;
+    font-size: 11px;
+}
+
+/* screen 2 */
+.section2 {
+    height: 37vh;
+    width: 58%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 29%;
+}
+.second_screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.second_screen_pic {
+height: 52px;
+}
+.second_screen_text {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 34px;
+    margin-bottom: -20px;
+}
+#num2 {
+    height: 178px;
+    margin-left: -23px;
+    margin-right: 10px;
+    margin-top: 27px;
+}
+
+/* screen 3 */
+.section3 {
+    height: 90vh;
+    background-image: url(../assets/3screen/III.png);
+    background-repeat: no-repeat;
+    background-size: auto 178px;
+    background-position: 13% 12.5%;
+}
+h2 {
+    width: 70%;
+    padding-left: 257px;
+    margin-top: 32px;
+    text-align: left;
+    font-size: 22px;
+    letter-spacing: 0.014em;
+}
+.section3_div {
+    height: 60%;
+    width: 58%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 21%;
+    margin-top: 111px;
+    align-content: center;
+}
+.third_screen_foto {
+    height: 200px;
+    width: auto;
+    margin-top: 10px;
+}
+.third_screen_text {
+    position: relative;
+    font-size: 14.5px;
+    letter-spacing: 0.015em;
+    margin-top: -45px;
+    margin-bottom: 42px;
+    margin-left: 25px;
+    text-align: left;
+}
+
+/* screen 3.5 */
+.section3_5 {
+    height: 52vh;
+    margin-top: -5%;
+    background-image: url(../assets/3_5screen/back_img2.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100%;
+}
+.section3_5_h2 {
+    padding-top: 108px;
+}
+#section3_5_div {
+    margin-left: 21%;
+    display: flex;
+    justify-content: space-between;
+    width: 57vw;
+}
+#lorem_text {
+    width: 28vw;
+    margin-top: 10px;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0.008em;
+    text-align: left;
+}
+#form_div {
+    width: 28vw;
+    height: 14.9vh;
+    margin-top: -8.5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.form {
+    width: 154px;
+    height: 26.5px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+input:focus {
+    color:black
+}
+.form::placeholder {
+    font-family: 'Raleway', sans-serif;
+}
+.form::placeholder {
+    font-weight: 400;
+}
+.form::placeholder {
+    font-size: 10px;
+}
+.form::placeholder {
+    text-align: center;
+}
+.form::placeholder {
+    color: white;
+}
+.note {
+    margin-top: 10.1px;
+    margin-left: 7.6px;
+    line-height: 10px;
+    letter-spacing: 0.012em;
+    font-size: 8px;
+}
+.button {
+    width: 165px;
+    height: 34px;
+    background-color: rgba(212, 193, 127, 1);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+/* screen 4 */
+#section_4{
+    width: 100vw;
+    background-image: url(../assets/4screen/IV.png);
+    background-repeat: no-repeat;
+    background-size: auto 178px;
+    background-position: 85.3% 56.5%;
+}
+#video {
+    height: 410px;
+    width: 37vw;
+    margin-top: 32px;
+    margin-left: -21px;
+}
+
+/* screen 5 */
+#section_5 {
+    height: 70vh;
+    margin-top: 114px;
+    width: 100vw;
+    background-image: url(../assets/5creen/V.png);
+    background-repeat: no-repeat;
+    background-size: auto 178px;
+    background-position: 15.7% 19.3%;
+}
+#map {
+    height: 226px;
+    margin-top: 38.5px;
+    margin-left: -25.5px;
+}
+
+/* screen 6 */
+#section_6 {
+    height: 32.5vh;
+    margin-top: -30px;
+}
+#section_6_div {
+    width: 57.5vw;
+    margin-top: 24.5px;
+    margin-left: 255px;
+    display: flex;
+    justify-content: space-between;
+}
+.note2 {
+    margin-top: 9px;
+    line-height: 10px;
+    letter-spacing: 0.012em;
+    font-size: 8px;
+}
+
+/* footer */
+footer {
+    height: 170px;
+    width: 100vw;
+    background-color: rgba(45, 52, 60, 1);
+}
+#footer_div {
+    padding-top: 47px;
+    margin-left: 258px;
+    width: 57.5vw;
+    display: flex;
+    justify-content: space-between;
+}
+#logo2 {
+    height: 34px;
+    width: auto;
+    margin-top: -3px;
+    margin-left: -2px;
+}
+.down_menu {
+    width: 21.2vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.down_menu_div {
+    height: 88px;
+    width: 80px;
+    font-size: 10px;
+    line-height: 0.95em;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+address {
+    height: 94.5px;
+    width: 160px;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 0.95em;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.network_logo {
+    height: 13px;
+    padding-top: 5px;
+}
+.network_logo_div {
+    width: 105px;
+    display: flex;
+    justify-content: space-between;
+}
+
+

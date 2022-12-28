@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    font-size: 1.3em;
+}
+header {
+    background-color: rgb(224,224,224);
+    height: 15vh;
+}
+main {
+    background-color: rgb(255,248,227);
+    height: 60vh;
+    width: 67%;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.main1 {
+    height: 43%;
+    width: 100%;
+}
+section {
+    background-color: rgb(254,234,185);
+    height: 22%;
+}
+.two_parts {
+    height: 22%;
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+}
+.two_parts1 {
+    width: 47%;
+    height: 100%;
+}
+.part3 {
+    width: 94%;
+}
+aside {
+    background-color: rgb(221,236,203);
+        height: 60vh;
+        width: 33%;
+        float: right;
+}
+footer {
+    background-color: rgb(224,224,224);
+    height: 26vh;
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+p {
+    background-color: rgb(250,250,250);
+    height: 18vh;
+    width: 22%;
+}
